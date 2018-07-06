@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C8B0D020EF70970038E9A2 /* XCArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0C720EF70970038E9A2 /* XCArrayExtension.swift */; };
+		27C8B0D120EF70970038E9A2 /* XCNotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0C820EF70970038E9A2 /* XCNotificationCenterExtension.swift */; };
+		27C8B0D220EF70970038E9A2 /* XCStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0C920EF70970038E9A2 /* XCStringExtension.swift */; };
+		27C8B0D320EF70970038E9A2 /* XCDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CA20EF70970038E9A2 /* XCDataExtension.swift */; };
+		27C8B0D420EF70970038E9A2 /* XCNSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CB20EF70970038E9A2 /* XCNSObjectExtension.swift */; };
+		27C8B0D520EF70970038E9A2 /* XCDispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CC20EF70970038E9A2 /* XCDispatchQueueExtension.swift */; };
+		27C8B0D620EF70970038E9A2 /* XCDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CD20EF70970038E9A2 /* XCDictionaryExtension.swift */; };
+		27C8B0D720EF70970038E9A2 /* XCDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CE20EF70970038E9A2 /* XCDateExtension.swift */; };
 		27F952EC20E862EB003709E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F952EB20E862EB003709E7 /* AppDelegate.swift */; };
 		27F952EE20E862EB003709E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F952ED20E862EB003709E7 /* ViewController.swift */; };
 		27F952F120E862EB003709E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F952EF20E862EB003709E7 /* Main.storyboard */; };
 		27F952F320E862EE003709E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F952F220E862EE003709E7 /* Assets.xcassets */; };
 		27F952F620E862EE003709E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F952F420E862EE003709E7 /* LaunchScreen.storyboard */; };
-		27F9532B20E86C98003709E7 /* XCNSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9532A20E86C98003709E7 /* XCNSObjectExtension.swift */; };
-		27F9532D20E87FC3003709E7 /* XCStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9532C20E87FC3003709E7 /* XCStringExtension.swift */; };
-		27F9532F20E8802B003709E7 /* XCDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9532E20E8802B003709E7 /* XCDataExtension.swift */; };
 		27F9533220E880D6003709E7 /* libapple_crypto.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F9533120E880D6003709E7 /* libapple_crypto.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C8B0C720EF70970038E9A2 /* XCArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCArrayExtension.swift; sourceTree = "<group>"; };
+		27C8B0C820EF70970038E9A2 /* XCNotificationCenterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNotificationCenterExtension.swift; sourceTree = "<group>"; };
+		27C8B0C920EF70970038E9A2 /* XCStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCStringExtension.swift; sourceTree = "<group>"; };
+		27C8B0CA20EF70970038E9A2 /* XCDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDataExtension.swift; sourceTree = "<group>"; };
+		27C8B0CB20EF70970038E9A2 /* XCNSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNSObjectExtension.swift; sourceTree = "<group>"; };
+		27C8B0CC20EF70970038E9A2 /* XCDispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDispatchQueueExtension.swift; sourceTree = "<group>"; };
+		27C8B0CD20EF70970038E9A2 /* XCDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDictionaryExtension.swift; sourceTree = "<group>"; };
+		27C8B0CE20EF70970038E9A2 /* XCDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDateExtension.swift; sourceTree = "<group>"; };
 		27F952E820E862EB003709E7 /* XCSwiftKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCSwiftKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F952EB20E862EB003709E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F952ED20E862EB003709E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,9 +39,6 @@
 		27F952F220E862EE003709E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F952F520E862EE003709E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F952F720E862EE003709E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27F9532A20E86C98003709E7 /* XCNSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNSObjectExtension.swift; sourceTree = "<group>"; };
-		27F9532C20E87FC3003709E7 /* XCStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCStringExtension.swift; sourceTree = "<group>"; };
-		27F9532E20E8802B003709E7 /* XCDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCDataExtension.swift; sourceTree = "<group>"; };
 		27F9533120E880D6003709E7 /* libapple_crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_crypto.tbd; path = usr/lib/libapple_crypto.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -44,10 +54,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C8B0C120EF70960038E9A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27C8B0C220EF70960038E9A2 /* Cache */,
+				27C8B0C320EF70960038E9A2 /* Image */,
+				27C8B0C420EF70970038E9A2 /* Model */,
+				27C8B0C520EF70970038E9A2 /* Text */,
+				27C8B0C620EF70970038E9A2 /* Base */,
+				27C8B0CF20EF70970038E9A2 /* Utility */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		27C8B0C220EF70960038E9A2 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		27C8B0C320EF70960038E9A2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		27C8B0C420EF70970038E9A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27C8B0C520EF70970038E9A2 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		27C8B0C620EF70970038E9A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				27C8B0C720EF70970038E9A2 /* XCArrayExtension.swift */,
+				27C8B0C820EF70970038E9A2 /* XCNotificationCenterExtension.swift */,
+				27C8B0C920EF70970038E9A2 /* XCStringExtension.swift */,
+				27C8B0CA20EF70970038E9A2 /* XCDataExtension.swift */,
+				27C8B0CB20EF70970038E9A2 /* XCNSObjectExtension.swift */,
+				27C8B0CC20EF70970038E9A2 /* XCDispatchQueueExtension.swift */,
+				27C8B0CD20EF70970038E9A2 /* XCDictionaryExtension.swift */,
+				27C8B0CE20EF70970038E9A2 /* XCDateExtension.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		27C8B0CF20EF70970038E9A2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		27F952DF20E862EB003709E7 = {
 			isa = PBXGroup;
 			children = (
-				27F952FD20E8632C003709E7 /* XCSwiftKit */,
+				27C8B0C120EF70960038E9A2 /* Classes */,
 				27F952EA20E862EB003709E7 /* XCSwiftKitDemo */,
 				27F952E920E862EB003709E7 /* Products */,
 				27F9533020E880D6003709E7 /* Frameworks */,
@@ -75,79 +149,12 @@
 			path = XCSwiftKitDemo;
 			sourceTree = "<group>";
 		};
-		27F952FD20E8632C003709E7 /* XCSwiftKit */ = {
-			isa = PBXGroup;
-			children = (
-				27F9533520E88BA9003709E7 /* import */,
-				27F9530020E86399003709E7 /* Base */,
-				27F9530520E8639A003709E7 /* Cache */,
-				27F9530220E86399003709E7 /* Image */,
-				27F9530320E86399003709E7 /* Model */,
-				27F9530120E86399003709E7 /* Text */,
-				27F9530420E86399003709E7 /* Utility */,
-			);
-			name = XCSwiftKit;
-			path = ../XCSwiftKit;
-			sourceTree = "<group>";
-		};
-		27F9530020E86399003709E7 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				27F9532A20E86C98003709E7 /* XCNSObjectExtension.swift */,
-				27F9532C20E87FC3003709E7 /* XCStringExtension.swift */,
-				27F9532E20E8802B003709E7 /* XCDataExtension.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		27F9530120E86399003709E7 /* Text */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Text;
-			sourceTree = "<group>";
-		};
-		27F9530220E86399003709E7 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		27F9530320E86399003709E7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		27F9530420E86399003709E7 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		27F9530520E8639A003709E7 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cache;
-			sourceTree = "<group>";
-		};
 		27F9533020E880D6003709E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				27F9533120E880D6003709E7 /* libapple_crypto.tbd */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		27F9533520E88BA9003709E7 /* import */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = import;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,11 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F9532D20E87FC3003709E7 /* XCStringExtension.swift in Sources */,
-				27F9532B20E86C98003709E7 /* XCNSObjectExtension.swift in Sources */,
+				27C8B0D020EF70970038E9A2 /* XCArrayExtension.swift in Sources */,
+				27C8B0D620EF70970038E9A2 /* XCDictionaryExtension.swift in Sources */,
 				27F952EE20E862EB003709E7 /* ViewController.swift in Sources */,
+				27C8B0D120EF70970038E9A2 /* XCNotificationCenterExtension.swift in Sources */,
+				27C8B0D720EF70970038E9A2 /* XCDateExtension.swift in Sources */,
+				27C8B0D420EF70970038E9A2 /* XCNSObjectExtension.swift in Sources */,
 				27F952EC20E862EB003709E7 /* AppDelegate.swift in Sources */,
-				27F9532F20E8802B003709E7 /* XCDataExtension.swift in Sources */,
+				27C8B0D320EF70970038E9A2 /* XCDataExtension.swift in Sources */,
+				27C8B0D520EF70970038E9A2 /* XCDispatchQueueExtension.swift in Sources */,
+				27C8B0D220EF70970038E9A2 /* XCStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

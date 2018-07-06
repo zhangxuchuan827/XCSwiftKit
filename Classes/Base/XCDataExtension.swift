@@ -10,5 +10,12 @@ import Foundation
 
 extension Data {
     
+    public func UTF8String() -> String {
+        if self.count > 0 {
+            return String.init(data: self, encoding: String.Encoding.utf8) ?? ""
+        }
+        return ""
+
+    }
     
 }

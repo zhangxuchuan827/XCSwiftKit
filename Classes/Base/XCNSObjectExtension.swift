@@ -102,7 +102,7 @@ extension NSObject{
             objc_setAssociatedObject(self, RuntimeKey.XC_AllNSObjectObserverBlocks_key!, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
         }
         get {
-            return  objc_getAssociatedObject(self, ViewController.RuntimeKey.XC_AllNSObjectObserverBlocks_key!) as! [String : Any] as! [String : Array<_XCNSObjectKVOBlockTarget>]
+            return  objc_getAssociatedObject(self, RuntimeKey.XC_AllNSObjectObserverBlocks_key!) as! [String : Any] as! [String : Array<_XCNSObjectKVOBlockTarget>]
         }
     }
 }
