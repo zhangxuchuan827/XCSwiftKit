@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27C8B0D020EF70970038E9A2 /* XCArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0C720EF70970038E9A2 /* XCArrayExtension.swift */; };
-		27C8B0D120EF70970038E9A2 /* XCNotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0C820EF70970038E9A2 /* XCNotificationCenterExtension.swift */; };
-		27C8B0D220EF70970038E9A2 /* XCStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0C920EF70970038E9A2 /* XCStringExtension.swift */; };
-		27C8B0D320EF70970038E9A2 /* XCDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CA20EF70970038E9A2 /* XCDataExtension.swift */; };
-		27C8B0D420EF70970038E9A2 /* XCNSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CB20EF70970038E9A2 /* XCNSObjectExtension.swift */; };
-		27C8B0D520EF70970038E9A2 /* XCDispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CC20EF70970038E9A2 /* XCDispatchQueueExtension.swift */; };
-		27C8B0D620EF70970038E9A2 /* XCDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CD20EF70970038E9A2 /* XCDictionaryExtension.swift */; };
-		27C8B0D720EF70970038E9A2 /* XCDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C8B0CE20EF70970038E9A2 /* XCDateExtension.swift */; };
+		2758538E20F317C20056E805 /* XCArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538620F317C20056E805 /* XCArrayExtension.swift */; };
+		2758538F20F317C20056E805 /* XCNotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538720F317C20056E805 /* XCNotificationCenterExtension.swift */; };
+		2758539020F317C20056E805 /* XCStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538820F317C20056E805 /* XCStringExtension.swift */; };
+		2758539120F317C20056E805 /* XCDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538920F317C20056E805 /* XCDataExtension.swift */; };
+		2758539220F317C20056E805 /* XCNSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538A20F317C20056E805 /* XCNSObjectExtension.swift */; };
+		2758539320F317C20056E805 /* XCDispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538B20F317C20056E805 /* XCDispatchQueueExtension.swift */; };
+		2758539420F317C20056E805 /* XCDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538C20F317C20056E805 /* XCDictionaryExtension.swift */; };
+		2758539520F317C20056E805 /* XCDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758538D20F317C20056E805 /* XCDateExtension.swift */; };
+		2758539720F3180A0056E805 /* XCUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758539620F3180A0056E805 /* XCUIColorExtension.swift */; };
 		27F952EC20E862EB003709E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F952EB20E862EB003709E7 /* AppDelegate.swift */; };
 		27F952EE20E862EB003709E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F952ED20E862EB003709E7 /* ViewController.swift */; };
 		27F952F120E862EB003709E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F952EF20E862EB003709E7 /* Main.storyboard */; };
@@ -24,14 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27C8B0C720EF70970038E9A2 /* XCArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCArrayExtension.swift; sourceTree = "<group>"; };
-		27C8B0C820EF70970038E9A2 /* XCNotificationCenterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNotificationCenterExtension.swift; sourceTree = "<group>"; };
-		27C8B0C920EF70970038E9A2 /* XCStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCStringExtension.swift; sourceTree = "<group>"; };
-		27C8B0CA20EF70970038E9A2 /* XCDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDataExtension.swift; sourceTree = "<group>"; };
-		27C8B0CB20EF70970038E9A2 /* XCNSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNSObjectExtension.swift; sourceTree = "<group>"; };
-		27C8B0CC20EF70970038E9A2 /* XCDispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDispatchQueueExtension.swift; sourceTree = "<group>"; };
-		27C8B0CD20EF70970038E9A2 /* XCDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDictionaryExtension.swift; sourceTree = "<group>"; };
-		27C8B0CE20EF70970038E9A2 /* XCDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDateExtension.swift; sourceTree = "<group>"; };
+		2758538620F317C20056E805 /* XCArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCArrayExtension.swift; sourceTree = "<group>"; };
+		2758538720F317C20056E805 /* XCNotificationCenterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNotificationCenterExtension.swift; sourceTree = "<group>"; };
+		2758538820F317C20056E805 /* XCStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCStringExtension.swift; sourceTree = "<group>"; };
+		2758538920F317C20056E805 /* XCDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDataExtension.swift; sourceTree = "<group>"; };
+		2758538A20F317C20056E805 /* XCNSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNSObjectExtension.swift; sourceTree = "<group>"; };
+		2758538B20F317C20056E805 /* XCDispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDispatchQueueExtension.swift; sourceTree = "<group>"; };
+		2758538C20F317C20056E805 /* XCDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDictionaryExtension.swift; sourceTree = "<group>"; };
+		2758538D20F317C20056E805 /* XCDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDateExtension.swift; sourceTree = "<group>"; };
+		2758539620F3180A0056E805 /* XCUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIColorExtension.swift; sourceTree = "<group>"; };
 		27F952E820E862EB003709E7 /* XCSwiftKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCSwiftKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F952EB20E862EB003709E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F952ED20E862EB003709E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2758538420F317C20056E805 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2758539620F3180A0056E805 /* XCUIColorExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2758538520F317C20056E805 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2758538620F317C20056E805 /* XCArrayExtension.swift */,
+				2758538720F317C20056E805 /* XCNotificationCenterExtension.swift */,
+				2758538820F317C20056E805 /* XCStringExtension.swift */,
+				2758538920F317C20056E805 /* XCDataExtension.swift */,
+				2758538A20F317C20056E805 /* XCNSObjectExtension.swift */,
+				2758538B20F317C20056E805 /* XCDispatchQueueExtension.swift */,
+				2758538C20F317C20056E805 /* XCDictionaryExtension.swift */,
+				2758538D20F317C20056E805 /* XCDateExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		27C8B0C120EF70960038E9A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,14 +124,8 @@
 		27C8B0C620EF70970038E9A2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				27C8B0C720EF70970038E9A2 /* XCArrayExtension.swift */,
-				27C8B0C820EF70970038E9A2 /* XCNotificationCenterExtension.swift */,
-				27C8B0C920EF70970038E9A2 /* XCStringExtension.swift */,
-				27C8B0CA20EF70970038E9A2 /* XCDataExtension.swift */,
-				27C8B0CB20EF70970038E9A2 /* XCNSObjectExtension.swift */,
-				27C8B0CC20EF70970038E9A2 /* XCDispatchQueueExtension.swift */,
-				27C8B0CD20EF70970038E9A2 /* XCDictionaryExtension.swift */,
-				27C8B0CE20EF70970038E9A2 /* XCDateExtension.swift */,
+				2758538520F317C20056E805 /* Foundation */,
+				2758538420F317C20056E805 /* UIKit */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -228,16 +247,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C8B0D020EF70970038E9A2 /* XCArrayExtension.swift in Sources */,
-				27C8B0D620EF70970038E9A2 /* XCDictionaryExtension.swift in Sources */,
+				2758538E20F317C20056E805 /* XCArrayExtension.swift in Sources */,
+				2758539420F317C20056E805 /* XCDictionaryExtension.swift in Sources */,
 				27F952EE20E862EB003709E7 /* ViewController.swift in Sources */,
-				27C8B0D120EF70970038E9A2 /* XCNotificationCenterExtension.swift in Sources */,
-				27C8B0D720EF70970038E9A2 /* XCDateExtension.swift in Sources */,
-				27C8B0D420EF70970038E9A2 /* XCNSObjectExtension.swift in Sources */,
+				2758538F20F317C20056E805 /* XCNotificationCenterExtension.swift in Sources */,
+				2758539520F317C20056E805 /* XCDateExtension.swift in Sources */,
+				2758539220F317C20056E805 /* XCNSObjectExtension.swift in Sources */,
 				27F952EC20E862EB003709E7 /* AppDelegate.swift in Sources */,
-				27C8B0D320EF70970038E9A2 /* XCDataExtension.swift in Sources */,
-				27C8B0D520EF70970038E9A2 /* XCDispatchQueueExtension.swift in Sources */,
-				27C8B0D220EF70970038E9A2 /* XCStringExtension.swift in Sources */,
+				2758539120F317C20056E805 /* XCDataExtension.swift in Sources */,
+				2758539720F3180A0056E805 /* XCUIColorExtension.swift in Sources */,
+				2758539320F317C20056E805 /* XCDispatchQueueExtension.swift in Sources */,
+				2758539020F317C20056E805 /* XCStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
