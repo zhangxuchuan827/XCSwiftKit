@@ -26,6 +26,20 @@ extension String {
         return state
     }
     
+    func isInt() -> Bool {
+        let scan: Scanner = Scanner(string: self)
+        var val:Int = 0
+        return scan.scanInt(&val) && scan.isAtEnd
+    }
+    
+    func isFloat() -> Bool {
+        let scan: Scanner = Scanner(string: self)
+        var val:Float = 0
+        return scan.scanFloat(&val) && scan.isAtEnd
+    }
+
+
+    
     //MARK:- 截取
     
     public func substring(from index: Int) -> String {

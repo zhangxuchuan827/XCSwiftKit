@@ -168,6 +168,9 @@ extension Date {
             let timeOffset = Date().timeIntervalSince1970 - self.timeIntervalSince1970
             if timeOffset < 3600 {
                 let t1 = Int(timeOffset / 60)
+                if t1 < 1{
+                    return "刚刚"
+                }
                 return "\(t1)分钟前"
             }else{
                 let t2 = Int(timeOffset / 3600)

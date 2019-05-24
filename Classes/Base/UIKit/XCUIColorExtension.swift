@@ -49,14 +49,6 @@ extension UIColor {
                   alpha: a)
     }
     
-    ///将颜色转换成hex色值
-    func hexStirng() -> String {
-        
-        
-        
-        return ""
-    }
-    
     /// 生成一个随机颜色
     class var random: UIColor {
         return UIColor(r: arc4random_uniform(256),
